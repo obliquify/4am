@@ -103,15 +103,17 @@
 
 .row {
   display: flex;
+  justify-content: center;
+
   flex-wrap: wrap;
-  padding: 10px 10px 10px 10px;
+  padding: 15px 10px 10px 10px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  margin: 0 50px;
 }
 
 .column img {
@@ -155,8 +157,14 @@
 
 .search #search-field {
   margin-right: 20px;
-  margin-bottom: 40px;
   font-size: 30px;
+}
+
+#search-button {
+  padding: 0;
+  border: none;
+  background: none;
+  margin: 0;
 }
 
 .nav a:visited{
