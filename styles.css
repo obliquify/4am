@@ -127,6 +127,56 @@
   background-color: #DDBEA9 /* Desert Sand */
 }
 
+.dict-container {
+  display: flex;
+  width: auto;
+  padding: 100px 50px 10px 50px;
+  justify-content: center;
+  flex-direction: row;
+  width: auto;
+  text-align: center;
+}
+
+.dict-container h1 {
+  font-size: 60px;
+}
+
+.search {
+  display: flex;
+  /* flex: wrap; */
+  /* background-color:; /*Antique Brass */
+  width: auto;
+  justify-content: center;
+  flex-direction: row;
+  width: auto;
+  text-align: center;
+
+}
+
+.search #search-field {
+  margin-right: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.nav a:visited{
+  color: #C2B97F /* Misty Moss */
+
+}
+
+.search a:visited {
+  color: #C2B97F /* Misty Moss */
+}
+
+#definition {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 30px;
+
+}
 
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
